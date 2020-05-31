@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+li{
+	list-style: none;
+}
+.clearfix::after{
+	content:"";
+	height: 0;
+	display: block;
+	clear: both;
+}
